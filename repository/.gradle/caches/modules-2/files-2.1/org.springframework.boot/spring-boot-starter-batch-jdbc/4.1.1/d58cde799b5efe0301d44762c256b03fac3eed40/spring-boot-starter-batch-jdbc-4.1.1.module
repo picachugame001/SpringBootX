@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-batch-jdbc",
+    "version": "4.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-batch",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-jdbc",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-batch-jdbc",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-batch-jdbc-4.1.1.jar",
+          "url": "spring-boot-starter-batch-jdbc-4.1.1.jar",
+          "size": 4753,
+          "sha512": "1ebdf406b5cf6037d28b2fb6f43c322d8cc8899e6ea905ddfd1d8acf94bbb2034441045a4527141ec81e8dc2532f5db6c9d7c3e918f0ba7ea32d8a44dfc39d68",
+          "sha256": "639236e99f28db5aed553409ce7bf5c9fbbcae6121eca663bf060c92766e6c07",
+          "sha1": "4c6c0eacd5e0dd32a6af6da4ae2a380b0ca539e0",
+          "md5": "09b97b7880153f64d29b765257ae7043"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-batch",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-jdbc",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-batch-jdbc",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-batch-jdbc-4.1.1.jar",
+          "url": "spring-boot-starter-batch-jdbc-4.1.1.jar",
+          "size": 4753,
+          "sha512": "1ebdf406b5cf6037d28b2fb6f43c322d8cc8899e6ea905ddfd1d8acf94bbb2034441045a4527141ec81e8dc2532f5db6c9d7c3e918f0ba7ea32d8a44dfc39d68",
+          "sha256": "639236e99f28db5aed553409ce7bf5c9fbbcae6121eca663bf060c92766e6c07",
+          "sha1": "4c6c0eacd5e0dd32a6af6da4ae2a380b0ca539e0",
+          "md5": "09b97b7880153f64d29b765257ae7043"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-batch-jdbc-4.1.1-javadoc.jar",
+          "url": "spring-boot-starter-batch-jdbc-4.1.1-javadoc.jar",
+          "size": 4753,
+          "sha512": "1ebdf406b5cf6037d28b2fb6f43c322d8cc8899e6ea905ddfd1d8acf94bbb2034441045a4527141ec81e8dc2532f5db6c9d7c3e918f0ba7ea32d8a44dfc39d68",
+          "sha256": "639236e99f28db5aed553409ce7bf5c9fbbcae6121eca663bf060c92766e6c07",
+          "sha1": "4c6c0eacd5e0dd32a6af6da4ae2a380b0ca539e0",
+          "md5": "09b97b7880153f64d29b765257ae7043"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-batch-jdbc-4.1.1-sources.jar",
+          "url": "spring-boot-starter-batch-jdbc-4.1.1-sources.jar",
+          "size": 4753,
+          "sha512": "1ebdf406b5cf6037d28b2fb6f43c322d8cc8899e6ea905ddfd1d8acf94bbb2034441045a4527141ec81e8dc2532f5db6c9d7c3e918f0ba7ea32d8a44dfc39d68",
+          "sha256": "639236e99f28db5aed553409ce7bf5c9fbbcae6121eca663bf060c92766e6c07",
+          "sha1": "4c6c0eacd5e0dd32a6af6da4ae2a380b0ca539e0",
+          "md5": "09b97b7880153f64d29b765257ae7043"
+        }
+      ]
+    }
+  ]
+}

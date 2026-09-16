@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-batch",
+    "version": "4.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-batch",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-batch-4.1.1.jar",
+          "url": "spring-boot-starter-batch-4.1.1.jar",
+          "size": 4740,
+          "sha512": "00cc112afe1885be9ee4b86f0acebcf21cd439942526fe7a268ebc9d9db1e9924811f984644c0f8e08616ae98592d891ff3c1534b2acc1a060757588d7c081b4",
+          "sha256": "fe213c4628f2ed859e6bdb0352816a6b7d6fa57f9e1f1e5f2a19ef64f7b5297d",
+          "sha1": "4b2eb465ba9dd87ebc1b19c77da8aa83b30ad97b",
+          "md5": "26a1492e0b2c45ccc774262a9079d4e2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-batch",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-batch-4.1.1.jar",
+          "url": "spring-boot-starter-batch-4.1.1.jar",
+          "size": 4740,
+          "sha512": "00cc112afe1885be9ee4b86f0acebcf21cd439942526fe7a268ebc9d9db1e9924811f984644c0f8e08616ae98592d891ff3c1534b2acc1a060757588d7c081b4",
+          "sha256": "fe213c4628f2ed859e6bdb0352816a6b7d6fa57f9e1f1e5f2a19ef64f7b5297d",
+          "sha1": "4b2eb465ba9dd87ebc1b19c77da8aa83b30ad97b",
+          "md5": "26a1492e0b2c45ccc774262a9079d4e2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-batch-4.1.1-javadoc.jar",
+          "url": "spring-boot-starter-batch-4.1.1-javadoc.jar",
+          "size": 4740,
+          "sha512": "00cc112afe1885be9ee4b86f0acebcf21cd439942526fe7a268ebc9d9db1e9924811f984644c0f8e08616ae98592d891ff3c1534b2acc1a060757588d7c081b4",
+          "sha256": "fe213c4628f2ed859e6bdb0352816a6b7d6fa57f9e1f1e5f2a19ef64f7b5297d",
+          "sha1": "4b2eb465ba9dd87ebc1b19c77da8aa83b30ad97b",
+          "md5": "26a1492e0b2c45ccc774262a9079d4e2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-batch-4.1.1-sources.jar",
+          "url": "spring-boot-starter-batch-4.1.1-sources.jar",
+          "size": 4740,
+          "sha512": "00cc112afe1885be9ee4b86f0acebcf21cd439942526fe7a268ebc9d9db1e9924811f984644c0f8e08616ae98592d891ff3c1534b2acc1a060757588d7c081b4",
+          "sha256": "fe213c4628f2ed859e6bdb0352816a6b7d6fa57f9e1f1e5f2a19ef64f7b5297d",
+          "sha1": "4b2eb465ba9dd87ebc1b19c77da8aa83b30ad97b",
+          "md5": "26a1492e0b2c45ccc774262a9079d4e2"
+        }
+      ]
+    }
+  ]
+}

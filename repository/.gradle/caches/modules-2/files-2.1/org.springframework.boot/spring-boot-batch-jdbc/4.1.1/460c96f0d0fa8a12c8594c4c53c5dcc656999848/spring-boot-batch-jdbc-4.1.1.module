@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-batch-jdbc",
+    "version": "4.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-batch",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-jdbc",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-batch-jdbc-4.1.1.jar",
+          "url": "spring-boot-batch-jdbc-4.1.1.jar",
+          "size": 17609,
+          "sha512": "639ab36089b87ddac72b1b0f021dd62627284c894c8a97d2e9e4b1799486c59e5b646f670744fe5b56645ce26dfa31f9c386224a11fa4e1ebf8542dd053c8b8b",
+          "sha256": "267385afc2028bcb49397126068b442e5fe86109878d8dbeab6c27715307c628",
+          "sha1": "701e6b36f0846e1a9259540c84f85ef55051ddbf",
+          "md5": "08d58f579280b6c49c57c8ae329e0bcc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-transaction",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-batch",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-jdbc",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-batch-jdbc-4.1.1.jar",
+          "url": "spring-boot-batch-jdbc-4.1.1.jar",
+          "size": 17609,
+          "sha512": "639ab36089b87ddac72b1b0f021dd62627284c894c8a97d2e9e4b1799486c59e5b646f670744fe5b56645ce26dfa31f9c386224a11fa4e1ebf8542dd053c8b8b",
+          "sha256": "267385afc2028bcb49397126068b442e5fe86109878d8dbeab6c27715307c628",
+          "sha1": "701e6b36f0846e1a9259540c84f85ef55051ddbf",
+          "md5": "08d58f579280b6c49c57c8ae329e0bcc"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-batch-jdbc-4.1.1-javadoc.jar",
+          "url": "spring-boot-batch-jdbc-4.1.1-javadoc.jar",
+          "size": 116634,
+          "sha512": "488f18790c279cde1af4f61c668f4db3ab8dcdf592fd5f22222a365359fffa6b6e23cbd0e2f79c142b5cf6ceb90a0fcf53d9fbab4f01acffb816c361f9b51cf4",
+          "sha256": "c6a985526bae0a338eba22753d86b02468e25868d7674470619df2786629d47c",
+          "sha1": "45fd92c6dbf9b47fd6eeec3c16925f5e2a40792f",
+          "md5": "2f6f2f9442c0ceb4af96303d5fa12033"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-batch-jdbc-4.1.1-sources.jar",
+          "url": "spring-boot-batch-jdbc-4.1.1-sources.jar",
+          "size": 13767,
+          "sha512": "d7d075c804ed0e59747793192e1e347c2348a71e4d1494b0aa6af8d1a381365d6c8cc37c49dce14443f2b9fbce6c81b1bf86ae228e32e910f8e5dd6d46d67c4f",
+          "sha256": "43b2557277a8fc48455e1550cf777e6c70031ff29709ed0a8df20a887b4c6048",
+          "sha1": "0cc686dcb925384c8cfcb3808641579c011c8ffa",
+          "md5": "70a6a028fb33e39e9613f0f8f2ebdbc8"
+        }
+      ]
+    }
+  ]
+}

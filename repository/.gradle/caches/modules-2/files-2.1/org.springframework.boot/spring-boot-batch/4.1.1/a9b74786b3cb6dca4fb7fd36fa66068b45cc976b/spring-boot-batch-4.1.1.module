@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-batch",
+    "version": "4.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.batch",
+          "module": "spring-batch-core",
+          "version": {
+            "requires": "6.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-batch-4.1.1.jar",
+          "url": "spring-boot-batch-4.1.1.jar",
+          "size": 20679,
+          "sha512": "3ceedfd58bf76efa99026b6f43cf5642cb072bb3795a55a614f909783f990757f2cfe99fd40d82b537187eabfc94da10189fa5688e05d2d8d8e34e4bfb587c4e",
+          "sha256": "5ee4a6ab2707d871694845da415b017050f9fe7d9d5b94643694c79d3d6aa6dd",
+          "sha1": "e6f27c67144749a923a6fac21370c5a6baba1cc7",
+          "md5": "484c1133195578b5c4cc63634bef5869"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.batch",
+          "module": "spring-batch-core",
+          "version": {
+            "requires": "6.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-batch-4.1.1.jar",
+          "url": "spring-boot-batch-4.1.1.jar",
+          "size": 20679,
+          "sha512": "3ceedfd58bf76efa99026b6f43cf5642cb072bb3795a55a614f909783f990757f2cfe99fd40d82b537187eabfc94da10189fa5688e05d2d8d8e34e4bfb587c4e",
+          "sha256": "5ee4a6ab2707d871694845da415b017050f9fe7d9d5b94643694c79d3d6aa6dd",
+          "sha1": "e6f27c67144749a923a6fac21370c5a6baba1cc7",
+          "md5": "484c1133195578b5c4cc63634bef5869"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-batch-4.1.1-javadoc.jar",
+          "url": "spring-boot-batch-4.1.1-javadoc.jar",
+          "size": 145905,
+          "sha512": "63dfc6b10a8e80890523f6df40991b193fa6ff750d75775ff4aa40fe4cdc9775ef3cc4ec80c3712801720e4ae0e10541edaaab10865808c6ce8f75cb461e6c8e",
+          "sha256": "ff99b0c8cc7aceb5c0d17deaa677751bf6bef78a459b21da0d17273af4241097",
+          "sha1": "a33f961655fbc1320aadf90ce5e757db16b1fc91",
+          "md5": "fe29b68b03887e3bc83018ef9133cdd0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-batch-4.1.1-sources.jar",
+          "url": "spring-boot-batch-4.1.1-sources.jar",
+          "size": 19368,
+          "sha512": "4c37a7617ec401f78176fe401a884769558639b95568de2deb7fb3e67ce1882fd8ad68f13e2056951294db4142b9c05c9673ef94315acdb3855ae620965b5fe7",
+          "sha256": "38b438f5b8519eace747f6613132397c908e6d5813aed1d1794c7af10b5194a8",
+          "sha1": "a3cce5bc66b281d91b269fa51d4b8294d1160946",
+          "md5": "757e00a5da39b6d9dd3b7b8a22a9d7ff"
+        }
+      ]
+    }
+  ]
+}
