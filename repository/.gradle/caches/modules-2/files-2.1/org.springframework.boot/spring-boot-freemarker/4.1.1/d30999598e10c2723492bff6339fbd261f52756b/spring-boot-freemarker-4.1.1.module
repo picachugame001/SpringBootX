@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-freemarker",
+    "version": "4.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.34"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context-support",
+          "version": {
+            "requires": "7.0.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-freemarker-4.1.1.jar",
+          "url": "spring-boot-freemarker-4.1.1.jar",
+          "size": 24721,
+          "sha512": "46448942a378043aaa71a1db6bbb95aad9865811602fdbe6f0d5fc504de0fb812a88f20a810f02b211289657e49e9bbef89edf00980de2b6b5172b1109fe8bc4",
+          "sha256": "0b0359bb7d321f109f673e550c256f20cf8672e96698099296a14d858a7e9d5b",
+          "sha1": "c4e3f59f2fd7c6546e91c3d3c522a2369b9f662f",
+          "md5": "b13b1fe130bea2ea9681af6d0e435cdd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.34"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context-support",
+          "version": {
+            "requires": "7.0.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-freemarker-4.1.1.jar",
+          "url": "spring-boot-freemarker-4.1.1.jar",
+          "size": 24721,
+          "sha512": "46448942a378043aaa71a1db6bbb95aad9865811602fdbe6f0d5fc504de0fb812a88f20a810f02b211289657e49e9bbef89edf00980de2b6b5172b1109fe8bc4",
+          "sha256": "0b0359bb7d321f109f673e550c256f20cf8672e96698099296a14d858a7e9d5b",
+          "sha1": "c4e3f59f2fd7c6546e91c3d3c522a2369b9f662f",
+          "md5": "b13b1fe130bea2ea9681af6d0e435cdd"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-freemarker-4.1.1-javadoc.jar",
+          "url": "spring-boot-freemarker-4.1.1-javadoc.jar",
+          "size": 124216,
+          "sha512": "1826ae4da8f4bdae489e6485912bd983358bce6c6e3ec1f02982c370bed9779d7a4832a466f0a48d6c27368e08fd4f6c701368cc16a7c65a351315e535eb8b25",
+          "sha256": "7c8986e1103034b58b31138c75a7431fc50594d891bf039295dcca65b338f72d",
+          "sha1": "c2d79894dccead14a21fdefb2aba99eec265cc15",
+          "md5": "0d2a2e9f1fde09b655b177bef36da427"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-freemarker-4.1.1-sources.jar",
+          "url": "spring-boot-freemarker-4.1.1-sources.jar",
+          "size": 19839,
+          "sha512": "af61045c53f97bf8324a3409111eea7152b58cedcec10116891dd132f4b159975231ada639dc04b2b2fb8da41cd52e829758770642ff760cdf7baeaa9b6037e7",
+          "sha256": "5c3fedf4031d122a77184259dd209f9e042f8269c79aef4383bfd3c5b4362fff",
+          "sha1": "fc3d7e27dc45904363eb333ace49404e3c899de2",
+          "md5": "419d9b48c68e481c8085a1919ae11358"
+        }
+      ]
+    }
+  ]
+}
